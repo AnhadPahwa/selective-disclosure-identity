@@ -1,6 +1,0 @@
-research_code@1.0.0 /Users/anhadsingh/Desktop/research_code
-├── @mattrglobal/bbs-signatures@2.0.0
-├── @mattrglobal/bls12381-key-pair@2.0.0
-├── @mattrglobal/node-bbs-signatures@0.20.0
-└── express@5.2.1
-

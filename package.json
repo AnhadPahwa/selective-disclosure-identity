@@ -1,23 +1,17 @@
 {
-  "name": "research_code",
+  "name": "selective-disclosure-identity",
   "version": "1.0.0",
-  "description": "This repository contains a research prototype developed for an AP Research project examining the feasibility of cryptographic token-based identity systems that balance child safety, fraud prevention and user anonymity.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "example": "examples",
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Research prototype comparing Ed25519 attached credentials with BBS+ selective-disclosure proofs for privacy-preserving age verification.",
+  "private": true,
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "verifier": "node verifier/verifier_service.js"
+  },
   "dependencies": {
-    "@mattrglobal/bbs-signatures": "^2.0.0",
-    "@mattrglobal/bls12381-key-pair": "^2.0.0",
     "@mattrglobal/node-bbs-signatures": "^0.20.0",
     "express": "^5.2.1"
   }
