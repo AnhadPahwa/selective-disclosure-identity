@@ -18,9 +18,5 @@ verifier_data/
 *.key
 *.crt
 
-# Experiment outputs
-experiments/results/
-*.csv
-
 # OS junk
 .DS_Store

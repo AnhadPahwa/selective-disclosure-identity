@@ -1,0 +1,24 @@
+scenario,run_idx,domain,policy_id,accepted,reason,nonce_fresh,sig_valid,not_revoked,policy_satisfied,prove_ms,verify_ms,total_ms,presentation_bytes,pairwise_nym,revocation_handle,notes
+valid,1,example.com,age_over_18,True,OK,True,True,True,True,171.97,7.21,179.17,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,2,example.com,age_over_18,True,OK,True,True,True,True,42.14,6.56,48.69,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,3,example.com,age_over_18,True,OK,True,True,True,True,39.26,6.73,45.99,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,4,example.com,age_over_18,True,OK,True,True,True,True,39.23,6.5,45.73,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,5,example.com,age_over_18,True,OK,True,True,True,True,39.13,6.44,45.57,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,6,example.com,age_over_18,True,OK,True,True,True,True,39.51,6.48,46.0,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,7,example.com,age_over_18,True,OK,True,True,True,True,39.17,6.82,45.99,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,8,example.com,age_over_18,True,OK,True,True,True,True,39.44,6.51,45.95,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,9,example.com,age_over_18,True,OK,True,True,True,True,39.6,6.56,46.16,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,10,example.com,age_over_18,True,OK,True,True,True,True,39.59,6.49,46.08,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,11,example.com,age_over_18,True,OK,True,True,True,True,39.37,6.35,45.73,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,12,example.com,age_over_18,True,OK,True,True,True,True,38.84,6.38,45.22,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,13,example.com,age_over_18,True,OK,True,True,True,True,39.38,6.51,45.89,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,14,example.com,age_over_18,True,OK,True,True,True,True,39.36,6.42,45.79,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,15,example.com,age_over_18,True,OK,True,True,True,True,39.3,6.34,45.64,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,16,example.com,age_over_18,True,OK,True,True,True,True,39.37,6.4,45.77,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,17,example.com,age_over_18,True,OK,True,True,True,True,39.23,6.41,45.64,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,18,example.com,age_over_18,True,OK,True,True,True,True,40.3,6.53,46.83,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,19,example.com,age_over_18,True,OK,True,True,True,True,39.62,6.61,46.22,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+valid,20,example.com,age_over_18,True,OK,True,True,True,True,39.42,6.4,45.82,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,
+replay,,example.com,age_over_18,False,NONCE_INVALID,False,,,,0.0,0.59,0.59,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,Replayed identical JSON; expected NONCE_INVALID (or NONCE_EXPIRED).
+cross_site,,evil.com,age_over_18,True,OK,True,True,True,True,41.94,6.83,48.77,1174,41b9fa6e838e26ff058c9c91861f5207846bffd5951015b0e5db6de45e44c1af,ppTnZcxh1vl2yP-Z1YmxRA,nym_domainA=0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370 nym_same=False
+revoked,,example.com,age_over_18,False,REVOKED,True,True,False,,97.46,6.43,103.89,1177,0ea28bd3d1ca0e03f5d4e0c9adfa690a257698cae7614c9a1f256c9299de4370,ppTnZcxh1vl2yP-Z1YmxRA,issuer_revoke_resp={'revoked': 'ppTnZcxh1vl2yP-Z1YmxRA'}

@@ -106,7 +106,7 @@ app.post("/verify", (req, res) => {
       }
     }
 
-    // 1) Nonce freshness + single-use
+    // 1) Nonce freshness + single use
     const issuedAt = nonceStore.get(pres.nonce);
     if (!issuedAt) {
       return res.json({ accepted: false, reason: "NONCE_INVALID", checks: { nonce_fresh: false } });
@@ -127,7 +127,7 @@ app.post("/verify", (req, res) => {
     }
 
     // issuer public key: load from file produced by python (issuer_data/issuer_pk.pem)
-    // Using built-in crypto verify for Ed25519
+    // Verify for Ed25519
     const fs = require("fs");
     const issuerPubPem = fs.readFileSync("issuer_data/issuer_pk.pem", "utf-8");
 
