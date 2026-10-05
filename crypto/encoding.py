@@ -1,6 +1,6 @@
 import base64
 
-from pyparsing import Union
+from typing import Union
 
 def b64url_encode(data: bytes) -> str:
     """Encode bytes to a URL-safe Base64 string without padding."""

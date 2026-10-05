@@ -64,7 +64,7 @@ def main():
     policy_id = sys.argv[1] if len(sys.argv) > 1 else "age_over_18"
     domain = sys.argv[2] if len(sys.argv) > 2 else "example.com"
 
-    # reveal indices for your Tier 2 schema:
+    # reveal indices for Tier 2 schema:
     # 1 age_group, 2 assurance_level, 4 expiry
     reveal_csv = "1,2,4"
 
